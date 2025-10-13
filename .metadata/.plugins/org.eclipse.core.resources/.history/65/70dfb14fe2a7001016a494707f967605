@@ -250,6 +250,7 @@ public class ToyFactory {
 			String ingredientName = sc.nextLine();
 
 			if (ingredients.containsKey(keyNum)) {
+			//	String ingredientNum = ingredients.get(keyNum);
 				System.out.println("이미 해당 키에 재료가 등록되어 있습니다.");
 
 				while (true) {
